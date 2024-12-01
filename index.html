@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+        <!--==================== favicon====================-->
+        <link rel="icon" href="packages/images/fav ico/favicon.ico" type="image/x-icon">
+
+         <!--==================== emailo.js====================-->
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("MrkDU-FafHFlofyDsdsh");
+  })();
+</script>
+
+
+        <title>Choose BIT at NEUST CIT!</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="logo">
+                    <!-- Logo Image -->
+                    <img src="packages/images/fav ico/favicon.ico" alt="Logo" class="logo-img">
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#blog" class="nav__link">
+                                 <i class="uil uil-message nav__icon"></i>Blog                              
+                             </a>
+                         </li>
+                       <li class="nav__item">
+                           <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram-alt"></i>
+                            </a>  
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="1 0 210 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <image class="home__blob-img" x="" xlink:href="packages/images/neust_logo.png"/>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Welcome to BIT at NEUST CIT!</h1>
+                            <h3 class="home__subtitle">Bachelor of Industrial Technology - Major in Foods</h3>
+                            <p class="home__description">Explore the innovative and hands-on opportunities in our BIT Food program. Join us and be part of a thriving community.</p>
+                            <a href="#contact" class="button button--flex home__button">Contact Us<i class="uil uil-message button__icon"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Us</h2>
+                <span class="section__subtitle">Get to Know Our Program</span>
+<br><br>
+                <div class="about__container container grid">
+                    <img src="packages/images/main3.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="description">
+                            We are a team of students from the Bachelor of Industrial Technology, majoring in Foods, at NEUST CIT. 
+                            our studies focus on food technology, modern processing techniques, and safety standards. Through hands-on laboratory experiences, 
+                            we apply scientific principles to develop and improve food products. We are committed to advancing sustainable methods in food production, 
+                            combining creativity with technical knowledge to positively impact the food industry.
+                        </p>
+                    </div>
+                </div>
+            </section>
+<br><br>
+            <section class="portfolio section" id="portfolio">
+                    <header class="section-head">
+                        <br>
+                    </header>
+                    <h2 class="section__title">Porfolio</h2>
+                    <span class="section__subtitle">Some of our Works</span>
+                    <main class="mainContainer">
+                        
+                        <!--  *****  Buttons Section Starts  *****  -->
+                        <div class="button-group">
+                            <button class="button active" data-filter="*">All</button>
+                            <button class="button" data-filter=".design">Pictures</button>
+                        <button class="button" data-filter=".development">Video</button>
+                        </div>
+                        <!--  *****  Buttons Section Ends  *****  -->
+                
+                        <!--  *****  Gallery Section Starts  *****  -->
+                        <div class="gallery">
+                            
+                            <!--  *****  Card 1 Starts  *****  -->
+                            <div class="item design">
+                                <img src="packages/images/porfolio picture/2.jpg">
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!--  *****  Card 1 Ends  *****  -->
+                
+                            <!--  *****  Card 2 Starts  *****  -->
+                            <div class="item design">
+                                <img src="packages/images/porfolio picture/3.jpg">
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!--  *****  Card 2 Ends  *****  -->
+                
+                            <!--  *****  Card 3 Starts  *****  -->
+                            <div class="item design">
+                                <img src="packages/images/porfolio picture/4.jpg">
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!--  *****  Card 3 Ends  *****  -->
+
+                            <!--  *****  Card 1 Starts  *****  -->
+                            <div class="item design">
+                                <img src="packages/images/porfolio picture/5.jpg">
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!--  *****  Card 1 Ends  *****  -->
+                
+                            <!--  *****  Card 2 Starts  *****  -->
+                            <div class="item design">
+                                <img src="packages/images/porfolio picture/6.jpg">
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!--  *****  Card 2 Ends  *****  -->
+                
+                            <!--  *****  Card 3 Starts  *****  -->
+                            <div class="item design">
+                                <img src="packages/images/porfolio picture/7.jpg">
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!--  *****  Card 3 Ends  *****  -->
+
+                            <!--  *****  Card 3 Starts  *****  -->
+                            <div class="item design">
+                                <img src="packages/images/porfolio picture/8.jpg">
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!--  *****  Card 3 Ends  *****  -->
+
+                             <!-- ***** Card 4 Starts ***** -->
+                            <div class="item development">
+                                <video src="packages/images/porfolio picture/1.mp4" autoplay loop muted playsinline></video>
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!-- ***** Card 4 Ends ***** -->
+                            
+                            <!-- ***** Duplicate Cards with Video ***** -->
+                            <div class="item development">
+                                <video src="packages/images/porfolio picture/2.mp4" autoplay loop muted playsinline></video>
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <div class="item development">
+                                <video src="packages/images/porfolio picture/3.mp4" autoplay loop muted playsinline></video>
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <div class="item development">
+                                <video src="packages/images/porfolio picture/4.mp4" autoplay loop muted playsinline></video>
+                                <div class="overlay">
+                                    <a href="#">VIEW MORE</a>
+                                </div>
+                            </div>
+                            <!-- ***** Gallery Section Ends ***** -->
+                
+                    </main>
+
+                    <section class="blog section" id="blog">
+                        <header class="section-head">
+                            <br>
+                        </header>
+                        <h2 class="section__title">Blog</h2>
+                        <span class="section__subtitle">Study</span>
+                        <main class="mainContainer">
+                        
+                            <section class="blog-posts">
+                                <div class="post-container">
+                                    <div class="post">
+                                        <h2>Laboratory Work: Food Testing</h2>
+                                        <p class="date">Posted on Nov 9,2023</p>
+                                        <p>Our laboratory solutions help optimize your food and beverage testing processes. Whether you are working in a production facility or a research lab, accurate and reliable testing is essential for ensuring the safety and quality of your products.   </p>
+                                        <div class="video-embed">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/PNQsiYRq2Yw?si=oCf5uUpyTxRpreQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        </div>
+                                        <p>At METTLER TOLEDO, we understand the importance of maintaining the highest levels of quality in the food and beverage industry. 
+                                            Our instruments are engineered to help you achieve this goal. We leverage decades of expertise and have worked closely with the 
+                                            food and beverage industry to develop solutions that meet your unique needs every day. Our equipment is designed with ease of use, precision, 
+                                            and reliability, ensuring that your lab can operate efficiently and effectively.  </p>
+                                        <section class="comments">
+                                            <h3>Leave a Comment</h3>
+                                            <form action="#" method="post">
+                                                <label for="name">Your Name:</label>
+                                                <input type="text" id="name" name="name" required>
+                                            
+                                                <label for="comment">Your Comment:</label>
+                                                <textarea id="comment" name="comment" rows="4" required></textarea>
+                                            
+                                                <button type="submit">Submit Comment</button>
+                                            </form>
+                                        </section>
+                                    </div>
+                        
+                                    <div class="post">
+                                        <h2>Modern Facilities for Food Technology</h2>
+                                        <p class="date">Posted on December 1, 2024</p>
+                                        <p>AppHarvest is exploring the future of indoor farming and agriculture technology by using up to 90% less water, human-assisting AI, 
+                                            and the power of the sun for reliable food growth. Alongside local education efforts, AppHarvest’s main focus is to provide US consumers
+                                             with sustainable in the future.</p>
+                                        <div class="video-embed">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mYdt6CAwKAY?si=K52EQj3b-zTP2QDT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        </div>
+                                        <p>Our goal is to prepare students for the demands of the food industry through practical learning...</p>
+                                        <section class="comments">
+                                            <h3>Leave a Comment</h3>
+                                            <form action="#" method="post">
+                                                <label for="name">Your Name:</label>
+                                                <input type="text" id="name" name="name" required>
+                                            
+                                                <label for="comment">Your Comment:</label>
+                                                <textarea id="comment" name="comment" rows="4" required></textarea>
+                                            
+                                                <button type="submit">Submit Comment</button>
+                                            </form>
+                                        </section>
+                                    </div>
+                                </div>
+                            </section>
+                        </main>
+                    </section>
+    
+                
+           <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You want to join us?</h2>
+                        <p class="project__description">Contact me now.</p>
+                        <a href="#contact" class="button button--flex button--white">Contact me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                       
+                    </div>
+                    <!-- <img src="assets/img/project.png" alt="" class="project__img"> -->
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+        
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+        
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contact__subtitle">(+63) 900000000</span>
+                        </div>
+                    </div>
+        
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+        
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle">Ourgroup30@gmail.com</span>
+                        </div>
+                    </div>
+        
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+        
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">CWXQ+8M5, Cabanatuan City, 3100 Nueva Ecija</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <form id="contact-form" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="name" class="contact__label">Name</label>
+                            <input type="text" id="name" class="contact__input">
+                        </div>
+        
+                        <div class="contact__content">
+                            <label for="email" class="contact__label">E-mail</label>
+                            <input type="email" id="email" class="contact__input">
+                        </div>
+                    </div>
+        
+                    <div class="contact__content">
+                        <label for="subject" class="contact__label">Subject</label>
+                        <input type="text" id="subject" class="contact__input">
+                    </div>
+        
+                    <div class="contact__content">
+                        <label for="message" class="contact__label">Description</label>
+                        <textarea id="message" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+        
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Send message
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <script type="text/javascript">
+          document.getElementById('contact-form').addEventListener('submit', function(event) {
+              event.preventDefault();
+        
+              const name = document.getElementById('name').value;
+              const email = document.getElementById('email').value;
+              const subject = document.getElementById('subject').value;
+              const message = document.getElementById('message').value;
+        
+              emailjs.send("service_fxt2gao", "template_wijt03a", {
+                  from_name: name,
+                  from_email: email,
+                  subject: subject,
+                  message: message
+              }).then(function(response) {
+                  alert('Message sent successfully!');
+                  console.log('SUCCESS!', response.status, response.text);
+              }, function(error) {
+                  alert('Failed to send the message, please try again later.');
+                  console.log('FAILED...', error);
+              });
+          });
+        </script>
+        
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Food Technology</h1>
+                    <span class="footer__subtitle">Shaping the Future of Food</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169;. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+    <!--   *****   JQuery Link   *****   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!--   *****   Isotope Filter Link   *****  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<script type="text/javascript">
+	var $galleryContainer = $('.gallery').isotope({
+		itemSelector: '.item',
+  		layoutMode: 'fitRows'
+	})
+
+	$('.button-group .button').on('click', function(){
+		$('.button-group .button').removeClass('active');
+		$(this).addClass('active');
+
+		var value = $(this).attr('data-filter');
+		$galleryContainer.isotope({
+			filter: value 
+		})
+	})
+</script>
+</body>
+
+</html>
